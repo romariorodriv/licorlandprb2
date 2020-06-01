@@ -138,14 +138,13 @@ line-height:5px;
   background: #36221c;
 }
 
-@media screen and (max-width:1,125px)
+@media screen and (max-width:1000px)
 {
-   .carousel {
-     width: 90%;
+   .carousel  {
+     width: 95%;
    }
-   .carousel .carousel-item{
-     width: 80%;
-   }
+   
+
  
 }
 @media screen and (max-width:720px)
@@ -154,17 +153,7 @@ line-height:5px;
      width: 90%;
    }
    .carousel .carousel-item{
-    width: 80%;
-  }
- 
-}
-@media screen and (max-width:500px)
-{
-   .carousel {
-     width: 90%;
-   }
-   .carousel .carousel-item{
-    width: 70%;
+    width: 50%;
   }
  
 }
