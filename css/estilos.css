@@ -154,6 +154,7 @@ line-height:5px;
    }
    .carousel .carousel-item{
     width: 50%;
+     margin-left:25px;
   }
  
 }
