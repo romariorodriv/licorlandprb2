@@ -156,7 +156,15 @@ line-height:5px;
     width: 60%;
   }
 }
-
+@media screen and (max-width:500px)
+{
+   .carousel .carousel-item img{
+     width: 40%;
+   }
+   .carousel .carousel-item{
+    width: 40%;
+  }
+}
 /*slider2*/
 .carousel2 {
   margin-top: 200px;
