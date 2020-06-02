@@ -83,8 +83,7 @@ line-height:5px;
 }
 @media screen and (max-width: 950px)
 {
-  header .logo,
-  header nav 
+  header .logo
   {
     width:100%;
     text-align:center;
