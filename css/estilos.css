@@ -142,11 +142,11 @@ float: left;
    
   }
 }
-@media screen and (max-width: 475px)
+@media screen and (max-width: 414px)
 {
 
   .logo{
-    width:230px;
+    width:220px;
   }
  .logo img{
    width:100%;
@@ -166,7 +166,7 @@ float: left;
    
   }
 }
-@media screen and (max-width: 376px)
+@media screen and (max-width: 375px)
 {
 
   .logo{
