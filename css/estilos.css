@@ -1,0 +1,461 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+ 
+
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+  width: 90%;
+  max-width: 950px;
+  margin: 0 auto;
+  }
+
+.header{
+
+
+ background:rgb(255, 222, 89);
+
+ padding:2rem 0;
+
+ position:fixed;z-index: 1;
+ left:0;
+ top:0;
+width: 100%;
+
+
+}
+
+.logo-nav-container{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.logo{
+width:400px;
+margin-top: 10px;
+line-height:20px;
+float: left;
+}
+
+.logo img
+{
+  width:100%;
+  padding-left: 50px;
+}
+
+.navigation ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+
+}
+.navigation ul li{
+  display: inline-block;
+  
+
+}
+.navigation ul li a{
+  display:block;
+  padding:0.5rem 1rem; 
+  color:black;
+  font-size:30px;
+
+  
+}
+
+@media screen and (max-width: 767px)
+{
+
+  
+  .logo{
+    width:350px;
+  }
+ .logo img{
+   width:90%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 1rem;
+    display:inline-block;
+   
+    color:black;
+    font-size:20px;
+   
+  }
+}
+@media screen and (max-width: 600px)
+{
+
+  .logo{
+    width:300px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+    color:black;
+    font-size:20px;
+   
+  }
+}
+@media screen and (max-width: 414px)
+{
+
+  .logo{
+    width:230px;
+  }
+ .logo img{
+   width:100%;
+   float: left;
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+    color:black;
+    font-size:15px;
+   
+  }
+}
+@media screen and (max-width: 376px)
+{
+
+  .logo{
+    width:200px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+    color:black;
+    font-size:15px;
+   
+  }
+}
+@media screen and (max-width: 360px)
+{
+
+  .logo{
+    width:220px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:block;
+   
+    color:black;
+    font-size:15px;
+   
+  }
+}
+/* ------------------------- */
+/* Estilos de Materialize */
+/* ------------------------- */
+
+
+.carousel {
+  margin-top: 200px;
+  min-height: 500px;
+  
+}
+
+.carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  
+  width: 500px;
+  height: 500px;
+  
+
+}
+
+.carousel .carousel-item img {
+
+ 
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  border-radius: 15px;
+  
+}
+
+.carousel .indicators .indicator-item {
+  border-radius: 0;
+  transform: rotate(45deg);
+  margin: 0 15px;
+  background: #36221c;
+}
+
+@media screen and (max-width:1000px)
+{
+   .carousel  {
+     width: 95%;
+   }
+   
+
+ 
+}
+@media screen and (max-width:720px)
+{
+   .carousel {
+     width: 90%;
+   }
+   .carousel .carousel-item{
+    width: 50%;
+  }
+ 
+}
+
+
+/*slider2*/
+
+
+
+/*inspirate*/
+.galeria-tipos{
+  margin-top:200px;
+
+}
+.galeria-tipos h1
+{
+ 
+  text-align:center;
+  
+  font-size:50px;
+  margin:20px 0 15px 0;
+  font-weight:300;
+}
+.contenedor-imagenes-tipos{
+  display:block;
+  width:50%;
+  margin:auto;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  border-radius:3px;
+  
+}
+.contenedor-imagenes-tipos .imagen-tipo{
+display: block;
+width:35%;
+margin:auto;
+position: relative;
+height:165px;
+margin-bottom:5px;
+
+box-shadow:0px 0px 3px 0px rgba(0,0,0, .75)
+}
+
+.imagen-tipo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.overlay1{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  background: rgba(232, 246, 255, 0.781);
+
+  width:100%;
+  height:0;
+  
+  overflow: hidden;
+  transition:1s ease;
+  
+}
+.overlay1 h2{
+  color:black;
+  font-size: 30px;
+  font-weight:300;
+  position: absolute;
+  top:50%;
+  left:50%;
+  text-align:center;
+  transform:translate(-50% ,-50%);  
+}
+.imagen-tipo:hover .overlay1{
+  height:100%;
+  cursor: pointer;
+}
+/*inspirate*/
+.galeria{
+  margin-top:200px;
+
+}
+.galeria h1{
+  text-align:center;
+  font-size:30px;
+  margin:20px 0 15px 0;
+  font-weight:300;
+}
+
+.contenedor-imagenes{
+  display:flex;
+  width:50%;
+  margin:auto;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  border-radius:3px;
+
+}
+.contenedor-imagenes .imagen{
+width:32%;
+position: relative;
+height:250px;
+margin-bottom:5px;
+box-shadow:0px 0px 3px 0px rgba(0,0,0, .75)
+
+}
+
+.imagen img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.overlay{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  /*background: rgba(0,118,192,0.781);*/
+  background: #ffffff;
+  width:100%;
+  height:0;
+  
+  overflow: hidden;
+  transition:1s ease;
+  
+}
+
+.overlay h2{
+  color:black;
+  font-size: 30px;
+  font-weight:300;
+  position: absolute;
+  top:50%;
+  left:50%;
+  text-align:center;
+  transform:translate(-50% ,-50%);  
+}
+.imagen:hover .overlay{
+  height:100%;
+  cursor: pointer;
+}
+@media screen and (max-width:1000px)
+{
+  .contenedor-imagenes{
+      width:95%;
+  }
+}
+
+
+@media screen and (max-width:700px)
+{
+  .contenedor-imagenes{
+      width:90%;
+  }
+
+  .contenedor-imagenes .imagen{
+      width: 48%;
+  }
+}
+
+@media screen and (max-width:700px)
+{
+  h1{
+      font-size: 22px;
+  }
+  .contenedor-imagenes{
+      width:90%;
+  }
+
+  .contenedor-imagenes .imagen{
+      width: 48%;
+  }
+}
+/*about us*/
+
+/*galeria*/
+
+/*footer*/
+/*footer{
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #0dd2f5;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}*/
