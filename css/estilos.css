@@ -118,7 +118,31 @@ float: left;
    
   }
 }
-@media screen and (max-width: 414px)
+@media screen and (max-width: 519px)
+{
+
+  .logo{
+    width:260px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+    color:black;
+    font-size:20px;
+   
+  }
+}
+@media screen and (max-width: 475px)
 {
 
   .logo{
@@ -170,7 +194,7 @@ float: left;
 {
 
   .logo{
-    width:220px;
+    width:200px;
   }
  .logo img{
    width:100%;
