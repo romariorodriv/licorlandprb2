@@ -201,13 +201,13 @@ float: left;
    
  }
   .navigation ul li{
-    display: block;
+    display: inline-block;
     
   
   }
   .navigation ul li a{
     padding-left: 0.5rem 1rem;
-    display:block;
+    display:inline-block;
    
     color:black;
     font-size:15px;
