@@ -354,9 +354,9 @@ float: left;
   
 }
 .contenedor-imagenes-tipos .imagen-tipo{
-  width:70%;
+  width:80%;
   position: relative;
-  height:170px;
+  height:150px;
   margin-bottom:5px;
   box-shadow:0px 0px 3px 0px rgba(0,0,0, .75)
 }
