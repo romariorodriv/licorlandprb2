@@ -81,10 +81,10 @@ float: left;
  }
   .navigation ul li{
     display: inline-block;
-    
+      font-size:20px;
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 1rem;
     display:inline-block;
    
@@ -108,7 +108,7 @@ float: left;
     
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -132,7 +132,7 @@ float: left;
     
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -156,7 +156,7 @@ float: left;
     
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -180,7 +180,7 @@ float: left;
     
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -204,7 +204,7 @@ float: left;
     
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -228,7 +228,7 @@ float: left;
     
   
   }
-  .navigation ul li a{
+  .navigation ul li {
     padding-left: 0.5rem 1rem;
     display:block;
    
