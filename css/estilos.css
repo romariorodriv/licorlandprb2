@@ -81,13 +81,13 @@ float: left;
  }
   .navigation ul li{
     display: inline-block;
-      font-size:20px;
+      
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 1rem;
     display:inline-block;
-   
+    font-size:20px;
     color:black;
     font-size:20px;
    
@@ -108,7 +108,7 @@ float: left;
     
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -132,7 +132,7 @@ float: left;
     
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -156,7 +156,7 @@ float: left;
     
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -180,7 +180,7 @@ float: left;
     
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -204,7 +204,7 @@ float: left;
     
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 0.5rem 1rem;
     display:inline-block;
    
@@ -228,7 +228,7 @@ float: left;
     
   
   }
-  .navigation ul li {
+  .navigation ul li a{
     padding-left: 0.5rem 1rem;
     display:block;
    
